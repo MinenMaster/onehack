@@ -19,7 +19,14 @@ public class Flight extends Mod {
     }
 
     @Override
+    public void onEnable() {
+        mc.player.getAbilities().setFlySpeed(0.1F);
+        super.onEnable();
+    }
+
+    @Override
     public void onDisable() {
+        mc.player.getAbilities().setFlySpeed(0.05F);
         mc.player.getAbilities().flying = false;
         super.onTick();
 
