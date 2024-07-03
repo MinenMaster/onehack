@@ -15,7 +15,7 @@
   "icon": "assets/onehack/icon.png",
   "environment": "*",
   "entrypoints": {
-    "main": [
+    "client": [
       "com.brodi.onehack.Client"
     ]
   },
