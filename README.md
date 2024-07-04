@@ -1,5 +1,5 @@
 
-█▀█ █▄░█ █▀▀ █░█ ▄▀█ █▀▀ █▄▀
+█▀█ █▄░█ █▀▀ █░█ ▄▀█ █▀▀ █▄▀  
 █▄█ █░▀█ ██▄ █▀█ █▀█ █▄▄ █░█
 
 
@@ -9,7 +9,7 @@ Version 1.0 Beta release,
 Only tested for 1.20.1 rn
 Founded by 1lent (hence one in onehack)
 
-# Client, experimenting with java modding,
+# Client, experimenting with java modding
 
 
 

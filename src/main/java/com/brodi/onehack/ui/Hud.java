@@ -8,11 +8,8 @@ public class Hud {
 
     private static MinecraftClient mc = MinecraftClient.getInstance();
 
-    public static void render(MatrixStack matrices, float tickDelta) {
-        mc.textRenderer.drawWithShadow(matrices, "test", 10, 10, -1);
+     public static void render(DrawContext context, float tickDelta) {
+        context.drawText(mc.textRenderer, "OneHack" , 10, 10, -1, true);
+        renderArrayList(context);
     }
-
-    
-    
-
 }
