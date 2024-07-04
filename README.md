@@ -21,5 +21,6 @@ Founded by 1lent (hence one in onehack)
 
 
 - Contributions Appreciated if you want to contribute
+- Working on UI
 
    ↳ Discord: 1lent
