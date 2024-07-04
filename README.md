@@ -20,5 +20,5 @@ Founded by 1lent (hence one in onehack)
 
 
 
--Contributions Appreciated if you want to contribute
-  Discord: 1lent
+- Contributions Appreciated if you want to contribute
+    ↳ Discord: 1lent
