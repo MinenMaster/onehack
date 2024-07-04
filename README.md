@@ -13,7 +13,7 @@ Founded by 1lent (hence one in onehack)
 
 
 
-- Press L for flight, works for 1.20.1
+- Press L for flight, works for 1.20.1 - .20.4 dont know about 1.21 yet
 - Shows What is activated, ![image](https://github.com/1lent/Onehack/assets/128602359/2b9c62bb-15ef-47f6-9584-e530fdc0b62e)
 
 
