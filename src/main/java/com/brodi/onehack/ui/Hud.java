@@ -1,4 +1,5 @@
 package com.brodi.onehack.ui;
+
 import com.brodi.onehack.module.Mod;
 import com.brodi.onehack.module.ModuleManager;
 import net.minecraft.client.MinecraftClient;
@@ -10,8 +11,10 @@ import java.util.Comparator;
 import java.util.List;
 
 public class Hud {
+
     private static MinecraftClient mc = MinecraftClient.getInstance();
-    public static void render(DrawContext context, float tickDelta) {
+
+     public static void render(DrawContext context, float tickDelta) {
         context.drawText(mc.textRenderer, "OneHack" , 10, 10, -1, true);
         renderArrayList(context);
     }

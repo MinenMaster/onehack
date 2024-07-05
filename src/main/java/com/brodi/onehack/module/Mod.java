@@ -5,8 +5,8 @@ import net.minecraft.client.MinecraftClient;
 
 public class Mod {
 
-
     private String name;
+    private String displayName;
     private String description;
     private  int key;
     private Category category;
@@ -16,6 +16,7 @@ public class Mod {
 
     public Mod(String name, String description, Category category) {
         this.name = name;
+        this.displayName = name;
         this.description = description;
         this.category = category;
 
@@ -40,6 +41,14 @@ public class Mod {
 
     public void onTick() {
 
+    }
+
+    public String getDisplayName() {
+        return displayName;
+    }
+
+    public void setDisplayName(String displayName) {
+        this.displayName = displayName;
     }
 
     public String getName() {

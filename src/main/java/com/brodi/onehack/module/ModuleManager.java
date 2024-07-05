@@ -1,9 +1,8 @@
 package com.brodi.onehack.module;
 import com.brodi.onehack.movement.Flight;
-import net.minecraft.client.MinecraftClient;
+import com.brodi.onehack.movement.Sprint;
 
 import java.util.List;
-
 import java.util.ArrayList;
 
 public class ModuleManager {
@@ -29,6 +28,8 @@ public class ModuleManager {
 
     private void addModules() {
         modules.add(new Flight());
+        modules.add(new Sprint());
+        modules.add(new Sprint());
     }
 
 
