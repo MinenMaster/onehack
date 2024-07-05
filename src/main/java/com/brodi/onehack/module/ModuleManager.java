@@ -1,4 +1,5 @@
 package com.brodi.onehack.module;
+import com.brodi.onehack.movement.Flash;
 import com.brodi.onehack.movement.Flight;
 import com.brodi.onehack.movement.Sprint;
 
@@ -29,7 +30,7 @@ public class ModuleManager {
     private void addModules() {
         modules.add(new Flight());
         modules.add(new Sprint());
-        modules.add(new Sprint());
+        modules.add(new Flash());
     }
 
 

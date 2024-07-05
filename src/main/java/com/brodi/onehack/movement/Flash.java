@@ -2,7 +2,7 @@ package com.brodi.onehack.movement;
 import org.lwjgl.glfw.GLFW;
 import com.brodi.onehack.module.Mod;
 
-import org.lwjgl.glfw.GLFW;
+
 
 public class Flash extends Mod {
     public Flash() {
