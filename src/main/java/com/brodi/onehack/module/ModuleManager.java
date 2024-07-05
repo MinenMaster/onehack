@@ -1,4 +1,5 @@
 package com.brodi.onehack.module;
+import com.brodi.onehack.movement.Flash;
 import com.brodi.onehack.movement.Flight;
 import com.brodi.onehack.movement.Sprint;
 
